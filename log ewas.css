@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background: linear-gradient( rgba(157, 149, 133, 0.369),rgba(147, 119, 119, 0.29)), url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    
+}
+.form{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color:rgba(255, 255, 255, 0.267);
+     border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(0, 0,0,0.1);
+}
+h1{
+    font-size: 2rem;
+    color: rgb(26, 23, 23);
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid  rgb(50, 47, 47);
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgb(245, 245, 249);
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: #793f3f;
+}
+button:hover{
+    background: 1px solid rgb(146, 106, 46) ;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: rgb(19, 30, 181);
+    text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #000000;
+}
+
+.member a{
+    color: rgb(98, 39, 39);
+    text-decoration: none;
+
+}
+
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color:#1a1819
+}

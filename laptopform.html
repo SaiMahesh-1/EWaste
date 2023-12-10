@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPTOP FORM</title>
+    <style>
+        body {
+            border: none;
+            border-radius: 20px;
+            border: 5px solid #f0e9e9;
+            border-width: 3.5px;
+            border-style: ridge;
+            background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp");
+            padding-top: 50px;
+            padding-left: 400px;
+            padding-right: 100px;
+            padding-bottom: 50px; 
+            font-size: 20px;
+            font-display: initial;
+            color: #fff;
+            margin-top: 150px;
+            margin-left: 150px;
+            margin-right:150px ;
+            font-size: 30px;
+            
+           
+
+        }
+
+        label {
+            width: 220px;
+            display: inline-block;
+            text-decoration: solid;
+            text-align: start;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <form>
+        
+        <div>
+          <b><label for="COMPANY">Company </label></b>
+            <select name="company" id="optionlist">
+                <option value="">--Select--</option>
+                <option value="">Acer</option>
+                <option value="">Alienware</option>
+                <option value="">Apple</option>
+                <option value="">Asus</option>
+                <option value="">Avita</option>
+                <option value="">Compaq</option>
+                <option value="">Dell</option>
+                <option value="">HP</option>
+                <option value="">iBall</option>
+                <option value="">IBM</option>
+                <option value="">Lenovo</option>
+                <option value="">Microsoft</option>
+                <option value="">Microsoft surface</option>
+                <option value="">MSI</option>
+                <option value="">Samsung</option>
+                <option value="">Sony</option>
+                <option value="">Toshiba</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+           <b><label for="PROCESSOR">Select Processor </label></b>
+            <select>
+                <option value="">--Select--</option>
+                <option value="">AMD</option>
+                <option value="">AMD Athlon</option>
+                <option value="">AMD Ryzen 3</option>
+                <option value="">AMD Ryzen 5</option>
+                <option value="">AMD Ryzen 7</option>
+                <option value="">AMD Ryzen 9</option>
+                <option value="">Celeron Dual-core</option>
+                <option value="">Intel Atom</option>
+                <option value="">Intel celeron Dual core</option>
+                <option value="">Intel celeron Quad core</option>
+                <option value="">Intel Centrino</option>
+                <option value="">Intel core 2 Duo</option>
+                <option value="">Intel core 2 Quad</option>
+                <option value="">Intel core i3</option>
+                <option value="">Intel core i5</option>
+                <option value="">Intel core i7</option>
+                <option value="">Intel core i9</option>
+                <option value="">Intel Pentium</option>
+                <option value="">Intel Pentium Dual core</option>
+                <option value="">Intel Pentium Quad core</option>
+                <option value="">Pentium P6200</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+           <b><label for="operating">Select Operating System</label></b>
+            <input type="radio" name="myopearting">
+
+        </div>
+        <br>
+        <div id="image">
+            <div>
+                <b><label for="image"> Upload Image</label></b>
+                <input type="file" placeholder="Image">
+            </div>
+        </div>
+        <br>
+        <div>
+            <div>
+                <label for="submit"></label>
+                <input type="button" value="submit" onclick="payment()">
+            </div>
+        </div>
+        
+    </form>
+
+    <script>
+
+        function payment() {
+            console.log("Hello");
+            alert("your receiving amount is 1000");
+
+        }
+
+    </script>
+</body>
+
+</html>

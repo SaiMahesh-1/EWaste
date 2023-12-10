@@ -1,0 +1,39 @@
+.pagebackground{
+    background-image: url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cardbackground{
+    background-color:#FFFFF7;
+    
+}
+.showbutton{
+    background-color: darkmagenta;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    border: solid;
+    padding: 5px;
+    width: 270px;
+}
+.heading{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.img3{
+    height:180px ;
+    width: 300px;
+    padding-left: 7px;
+}
+.buttonout{
+    padding-left:50px;
+     padding-bottom:7px;
+      padding-top:9px;
+}
+.img{
+    padding-left: 9px;
+}

@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile form</title>
+    <style>
+        body {
+
+            padding-top: 50px;
+            padding-left: 400px;
+            padding-right: 290px;
+            padding-bottom: 50px; 
+            font-size: 10px;
+            font-display: initial;
+            color: #131212;
+            margin-top: 150px;
+            margin-left: 150px;
+            margin-right:150px;
+            border: 20px;
+            border-radius: 20px;
+            border: 5px solid #f5f3f3;
+            border-width: 4px;
+            border-style: ridge;
+            background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp");
+
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 70px 0;
+            max-width: 400px;
+            margin: 0 auto;
+
+        }
+
+        .menu,
+        .content {
+            width: 100%;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            border: 2px solid #3f51b5;
+            background-position: 95% 55%;
+            background-size: 22px;
+        }
+
+        .content {
+            margin: 30px 0;
+        }
+
+        .content .data {
+            padding: 25px;
+            background-color: #fff;
+            border: 2px solid #8bc34a;
+            border-radius: 8px;
+        }
+
+        .content,
+        .p {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid gainsboro;
+            font-size: 20px;
+        }
+
+        .content,
+        .p:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .data {
+            display: none;
+        }
+
+        #button {
+            text-align: center;
+            font-size: 20px;
+
+
+        }
+
+        #image {
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <select id="name">
+
+                <option value="10.or">10.or</option>
+                <option value="apple">Apple</option>
+                <option value="asus">Asus</option>
+                <option value="blackberry">BlackBerry</option>
+                <option value="coolpad">Coolpad</option>
+                <option value="gionee">Gionee</option>
+                <option value="google">Google</option>
+                <option value="honor">Honor</option>
+                <option value="htc">HTC</option>
+                <option value="huawei">Huawei</option>
+                <option value="infinix">Infinix</option>
+                <option value="intex">Intex</option>
+                <option value="iQoo">iQoo</option>
+                <option value="iqoo">lqoo</option>
+                <option value="itel">Itel</option>
+                <option value="karbon">Karbon</option>
+                <option value="lava">Lava</option>
+                <option value="leeco">LeEco</option>
+                <option value="lenovo">Lenovo</option>
+                <option value="LG">LG</option>
+                <option value="lg">lg</option>
+                <option value="lyf">Lyf</option>
+                <option value="meizu">Meizu</option>
+                <option value="mi">Mi</option>
+                <option value="micromax">Micromax</option>
+                <option value="mobiistar">Mobiistar</option>
+                <option value="motorola">Motorola</option>
+                <option value="nokia">Nokia</option>
+                <option value="nubia">Nubia</option>
+                <option value="oneplus">Oneplus</option>
+                <option value="oppo">Oppo</option>
+                <option value="panasonic">Panasonic</option>
+                <option value="poco">Poco</option>
+                <option value="realme">Realme</option>
+                <option value="samsung">Samsung</option>
+                <option value="sony">Sony</option>
+                <option value="tecno">Tecno</option>
+                <option value="vivo">Vivo</option>
+                <option value="xiaomi">Xiaomi</option>
+                <option value="xolo">Xolo</option>
+                <option value="yu">Yu</option>
+            </select>
+        </div>
+
+
+        <div class="content">
+
+            <div id="10.or" class="data">
+                <div class="p">
+                    <input type="radio" name="my10.or">
+                    <label for="10.or">10.or D</label><br>
+                    <input type="radio" name="my10.or">
+                    <label for="10.or">10.or E</label><br>
+                    <input type="radio" name="my10.or">
+                    <label for="10.or">10.or G</label><br>
+                </div>
+            </div>
+            <div id="apple" class="data">
+                <div class="p">
+
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro max |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro max |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro max |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro|512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 pro|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 11 |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 mini|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 mini|128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 mini|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 12 |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 mini |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 mini |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 mini |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro max |1 TB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro max |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro max |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro max |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro |1 TB </label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 pro |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 13 |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5 |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5 |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5 |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5C |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5C |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5C | 8 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5S |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5S |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 5S |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 plus |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 plus |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 plus |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 plus |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6 |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S plus |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S plus |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S plus |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S plus|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S |16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 6S |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7 plus |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7 plus |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7 plus |32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7 |128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 7|32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 8 plus |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 8 plus |64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 8|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone 8|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone SE|32 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone SE|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone SE|128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone SE|16 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone X|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone X|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone XR|128 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone XR|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone XR|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs max|256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs max|512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs max|64 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs |256 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs |512 GB</label><br>
+                    <input type="radio" name="myapple">
+                    <label for="apple">iphone Xs |64 GB</label><br>
+                </div>
+
+            </div>
+            <div id="asus" class="data">
+                <div class="p">
+                    <input type="radio" name="myasus">
+                    <label for="asus">6Z</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Rog</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">ROG 2</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Rog 3</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Rog 5</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Rog 5 pro</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 2</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 2 laser</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3 Deluxe</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3 Laser</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3 Max</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3 Ultra</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 3s Max</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 4 Selfie</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 4 Selfie Pro</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone 5Z</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Go</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Lite L1</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Max</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Max M1</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Max M2</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Max Pro M1</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Max Pro M2</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Selfie</label><br>
+                    <input type="radio" name="myasus">
+                    <label for="asus">Zenfone Zoom</label><br>
+                </div>
+
+            </div>
+            <div id="blackberry" class="data">
+                <div class="p">
+                    <input type="radio" name="myblackberry">
+                    <label for="blackberry">Key 2</label><br>
+                    <input type="radio" name="myblackberry">
+                    <label for="blackberry">Key 2 LE</label><br>
+                    <input type="radio" name="myblackberry">
+                    <label for="blackberry">Key 2 Lite</label><br>
+                    <input type="radio" name="myblackberry">
+                    <label for="blackberry">KeyOne</label><br>
+                </div>
+
+            </div>
+            <div id="coolpad" class="data">
+                <div class="p">
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">A8</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Cool 1</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Cool 3</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Cool 5</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Cool 6</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 2.5D</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 3</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 5</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 5A</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 5c</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Mega 5m</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Note 3 lite</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Note 5</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Note 3 lite</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Note 6</label><br>
+                    <input type="radio" name="mycoolpad">
+                    <label for="coolpad">Note 8</label><br>
+                </div>
+            </div>
+            <div id="google" class="data">
+                <div class="p">
+
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Nexus 6</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">exus 6P</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 2</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 2XL</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 3</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 3 XL</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 3A</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 3A XL</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 4a</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel 6a</label><br>
+                    <input type="radio" name="mygoogle">
+                    <label for="google">Pixel XL</label><br>
+                </div>
+            </div>
+            <div id="honor" class="data">
+                <div class="p">
+                    <input type="radio" name="myhonor">
+                    <label for="honor">9a</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">9s</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">9X</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">9X Pro</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Holly 3</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Holly 4</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Holly 3</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Mate 20 Pro</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Y8s</label><br>
+                    <input type="radio" name="myhonor">
+                    <label for="honor">Y9s</label><br>
+                    <input type="radio" name="myhonor">
+                </div>
+            </div>
+            <div id="huawei" class="data">
+                <div class="p">
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 10</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 10 Lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 20</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 20i</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 4C</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 5C</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 5X</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 6</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 6 plus</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 6X</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 7</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 7A</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 7C</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 7S</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 7X</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8 Lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8 Pro</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8 Smart</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8C</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 8X</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 9 Lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 9i</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor 9N</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor Holly 2 Plus</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor Holly 3</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor P20 Pro</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor Play</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor View 10</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor View 20</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Honor Y9</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Mate 10</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Mate 20</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Mate 30 Pro</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Nova 3</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Nova 3i</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P Smart</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P20 lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P30 lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P30 Pro</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P8 Lite</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P9</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">P9 Plus</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Y5</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="huawei">Y7 Prime</label><br>
+                </div>
+
+            </div>
+            <div id="infinix" class="data">
+                <div class="p">
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 10</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 10 Play</label><br>
+                    <input type="radio" name="myhuawei">
+                    <label for="infinix">Hot 10s</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 11</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 11s</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 4Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 4Pro X556</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 6Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 7</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 7Pro </label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 8</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 9</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot 9Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot S3</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Hot S3X</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 10</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 10 Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 11</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 11s</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 4</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 5</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 5 Stylus</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Note 7</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">S4</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">S5</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">S5 Lite</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">S5 Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart 2</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart 3 Plus</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart 4</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart 4 Plus</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart 5</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Smart Hd 2021</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Zero 5</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Zero 5 Pro</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Zero 5G</label><br>
+                    <input type="radio" name="myinfinix">
+                    <label for="infinix">Zero 8i</label><br>
+                </div>
+
+            </div>
+            <div id="intex" class="data">
+                <div class="p">
+                    <input type="radio" name="myintex">
+                    <label for="intex">Aqua Lions T1 Lite</label><br>
+                    <input type="radio" name="myintex">
+                    <label for="intex">Cloud Flash</label><br>
+                </div>
+            </div>
+            <div id="iQoo" class="data">
+                <div class="p">
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">3</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">7</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">7 Legend</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">9</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">9 SE</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Neo 6</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Z3</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Z5</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Z6</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Z6 Lite</label><br>
+                    <input type="radio" name="myiQoo">
+                    <label for="iQoo">Z6 Pro</label><br>
+                </div>
+
+            </div>
+            <div id="iqoo" class="data">
+                <div class="p">
+                    <input type="radio" name="myiqoo">
+                    <label for="iqoo">3 5G</label><br>
+                </div>
+
+            </div>
+            <div id="itel" class="data">
+                <div class="p">
+                    <input type="radio" name="myitel">
+                    <label for="itel">A23</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A25</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A25 Pro</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A44</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A44 Air</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A44 Power</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A46</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A47</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">A48</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">Vision 1</label><br>
+                    <input type="radio" name="myitel">
+                    <label for="itel">vision 1 Pro</label><br>
+                </div>
+
+            </div>
+            <div id="karbon" class="data">
+                <div class="p">
+                    <input type="radio" name="mykarbon">
+                    <label for="karbon">Platinum P9</label><br>
+                    <input type="radio" name="mykarbon">
+                    <label for="karbon">Platinum P9 Pro</label><br>
+                    <input type="radio" name="mykarbon">
+                    <label for="karbon">Titanium Frames S7</label><br>
+                    <input type="radio" name="mykarbon">
+                    <label for="karbon">Titanium S9 Plus</label><br>
+                </div>
+            </div>
+            <div id="lava" class="data">
+                <div class="p">
+                    <input type="radio" name="mylava">
+                    <label for="lava">A97</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Agni 5G</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Beu</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">V5</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">X50 PLus</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">X81</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z1</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z10</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z25</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z2s</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z41</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z50</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z51</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z53</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z60</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z60s</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z61</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z61 Pro</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z61 P</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z62</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z66</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z70</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z71</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z80</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z81</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z90</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z91</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z92</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lava">Z93</label><br>
+                </div>
+
+            </div>
+
+            <div id="lenovo" class="data">
+                <div class="p">
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A5</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A5000</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A6 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A6000</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A6000 Plus</label><br>
+                    <input type="radio" name="mylava">
+                    <label for="lenovo">A6010</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A6600</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A6600 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A7000</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">A7700</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K10 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K10 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">k3 note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K3 Note Music Edition</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K4 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K5 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K5 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K6 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K6 power</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K8</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">k8 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K8 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">K9</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">p2</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Phab</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Phab 2</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Phab 2 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Phab 2 pro</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">phab plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe K4 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe K5</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe K5 Note</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe K5 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe P1</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe P1M</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe S1</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe S1 Lite</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe Shot</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe X3</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Vibe Z2 Pro</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Z2 Plus</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Z6 Pro</label><br>
+                    <input type="radio" name="mylenovo">
+                    <label for="lenovo">Zuk Z1</label><br>
+
+                </div>
+            </div>
+            <div id="LG" class="data">
+                <div class="p">
+                    <input type="radio" name="myLG">
+                    <label for="LG">A23G4 Stylus</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">G5</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">G6</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">G7+ ThinQ</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">G8s ThinQ</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">G8X ThinQ</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">K10</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">K7</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">K7i</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">Q6</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">Q6 Plus</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">Q7</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">V20</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">V30 Plus</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">V40 ThinQ</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">Velvet</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">W10</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">W30</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="LG">Wing</label><br>
+                </div>
+
+            </div>
+
+            <div id="mi" class="data">
+                <div class="p">
+                    <input type="radio" name="mymi">
+                    <label for="mi">Redmi 9 Activ</label><br>
+                    <input type="radio" name="mymi">
+                    <label for="mi">Redmi Note 10t</label><br>
+                </div>
+
+            </div>
+            <div id="micromax" class="data">
+                <div class="p">
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Bharat 2</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Bharat 5 plus</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas 2</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas 5</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas 5 Lite</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas 6</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">CAnvas 6 pro</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Doodle 3</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Doodle 4</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Evok </label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Fun</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Hue </label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Hue 2</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Infinity</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Infinity Hs2</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Infinity Life</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">Canvas Knight 2r</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">CAnvas Mega</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">ione</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">In1</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">In 1b</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="micromax">In NOte 1</label><br>
+                </div>
+            </div>
+
+            <div id="motorola" class="data">
+                <div class="p">
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Edge 20 Fusion</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">MOto C</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto C Plus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E3 Power</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="motorola">Moto E4</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E4 PLus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E40</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E5</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E5 Plus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E6 Plus </label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E6s</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E7 Plus </label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto E7 Power</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto Edge 20</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G 4G</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G Turbo Edition</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G10 Power</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G30</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G31</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G4</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G4 Play</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G4 Plus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G40 fusion</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G5</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G5 Plus</label><br>
+                    <input type="radio" name="mymicromax">
+                    <label for="motorola">Moto G5s</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G5s Plus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G6</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G6 Play</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G6 Plus</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G60 </label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G7</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G8 Plus </label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G7 Power</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G8 Power Lite</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G9</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto G9 Power</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto M</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto One</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto One Fusion+</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto One Vision</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto Turbo</label><br>
+                    <input type="radio" name="mymotorola">
+                    <label for="motorola">Moto X</label><br>
+                </div>
+
+            </div>
+            <div id="nokia" class="data">
+                <div class="p">
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">105</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">105 Dual Sim</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">105 Single sim</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">106</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">110 Dual Sim</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">150</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">2.1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">2.2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">2.3</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">2.4</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">215 4G</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">225 4G Dual sim</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3.1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3.1 Plus</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3.2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3.4</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">3310 Dual Sim</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">4.2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">5</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">5.1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">5.1 plus</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">5.3</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="nokia">5.4</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">6</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">6.1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">6.2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">7</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">7 Plus</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">7.1</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">7.2</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">8</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">8.1</label><br>
+                    <input type="radio" name="myLG">
+                    <label for="nokia">CO1 Plus</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">C3</label><br>
+                    <input type="radio" name="mynokia">
+                    <label for="nokia">Nokia 8</label><br>
+                </div>
+            </div>
+            <div id="nubia" class="data">
+                <div class="p">
+                    <input type="radio" name="mynubia">
+                    <label for="nubia">Red Magic 3</label><br>
+                </div>
+            </div>
+            <div id="oneplus" class="data">
+                <div class="p">
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">10 Pro</label><br>
+                    <input type="radio" name="oneplus">
+                    <label for="oneplus">10R</label><br>
+                    <input type="radio" name="oneplus">
+                    <label for="oneplus">10T</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">9</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">9 Pro</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">9R</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">9RT</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Nord 2</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Nord 2T</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Nord CE</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Nord CE 2</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">NOrd CE 2 Lite</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 3</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 3T</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 5</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 5T</label><br>
+                    <input type="radio" name="oneplus">
+                    <label for="oneplus">Oneplus 6</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 6T</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 7</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 7 Pro</label><br>
+                    <input type="radio" name="oneplus">
+                    <label for="oneplus">Oneplus 7T</label><br>
+                    <input type="radio" name="oneplus">
+                    <label for="oneplus">Oneplus 7T Pro</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 8</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 8 Pro</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 8T</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 9</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus 9 Pro</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus Nord</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus Nord CE 5G</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus One</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus Two</label><br>
+                    <input type="radio" name="myoneplus">
+                    <label for="oneplus">Oneplus X</label><br>
+                </div>
+
+            </div>
+            <div id="oppo" class="data">
+                <div class="p">
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A11K</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A12</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A15</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A15 s</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A16</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A31</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A33</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A37</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A37f</label><br>
+                    <input type="radio" name="myoppo">
+                    <label for="oppo">A16K</label><br>
+                </div>
+
+            </div>
+
+            <div id="poco" class="data">
+                <div class="p">
+                    <input type="radio" name="mypoco">
+                    <label for="poco">C3</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">OC31</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">F1</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">F3 GT</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">M2</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">M2 Pro</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">M3</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">M3 Pro</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco">X2</label><br>
+                    <input type="radio" name="mypoco">
+                    <label for="poco"> X3</label><br>
+                </div>
+
+            </div>
+            <div id="realme" class="data">
+                <div class="p">
+                    <input type="radio" name="myrealme">
+                    <label for="realme">1</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">2</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">2 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">3</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">3 pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">3i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">5</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">5 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">5i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">5s</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">6</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">6 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">6i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">7</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">7 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">7i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">8</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">8 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">8i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="xioami">9</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">9 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">9i</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">c1</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C11</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C12</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C15</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C2</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C20</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="xioami">C21</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C25</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C25S</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="xioami">C25y</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C3</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C31</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">C35</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="realme">Narzo 10</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 10 A</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">narzo 20</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 20 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">narzo 20A</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 30</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 30a</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 50</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">Narzo 50 A</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">U1</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">X</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">X2</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">X2 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">X3 </label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">X50 Pro</label><br>
+                    <input type="radio" name="myrealme">
+                    <label for="realme">XT</label><br>
+                </div>
+            </div>
+            <div id="samsung" class="data">
+                <div class="p">
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">A6 Plus</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">F22</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy AO3</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy AO3 Core</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy AO3s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A10</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A10s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A12</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A13</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A2 Core</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A20</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A20s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A21s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A22</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A23</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A3</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A30</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A30s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A31</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A32</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A33</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A5</label>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A5 Duos</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A50</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A50s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A51</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A52</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A52s</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A53</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy A6</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy fold</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy Grand Max</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy Grand Neo</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J2</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J3</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J4</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J5</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J6</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J7</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy J8</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S10</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S10 Lite</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S10 Plus</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S20</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S20 Plus</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S20 Ultra</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S21</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S21 Ultra</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy Z Flip</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S22</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S22 Ultra</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S9</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S8</label><br>
+                    <input type="radio" name="mysamsung">
+                    <label for="samsung">Galaxy S7</label><br>
+                </div>
+
+            </div>
+            <div id="sony" class="data">
+                <div class="p">
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia M5 dual</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia R1 Plus</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="sony">Xperia X</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA Ultra</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA Ultra Dual</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA1</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA1 Plus</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XA1 Ultra</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XZ</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XZ Premium</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia XZ1</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="sony">Xperia XZs</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia Z3</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="sony">Xperia Z5</label><br>
+                    <input type="radio" name="mysony">
+                    <label for="sony">Xperia ZL</label><br>
+                </div>
+            </div>
+
+            <div id="vivo" class="data">
+                <div class="p">
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">NEX</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">S1</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">S1 pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">U 10</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">U 20</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V1</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V1 Max</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V11</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V11 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 15</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 15 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 17</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 17 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 19</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 20</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 20 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V 20 Se</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">Vivo V21 5G</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="vivo">Vivo V21 e</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V23</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V3</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V3 Max</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V5</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V5 +</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V5 s</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="xioami">V7</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V7 +</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V9</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V9 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">V9 Youth</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X Play 5</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 21</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 3S</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X5 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 50</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 50 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 6</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X 60</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X60 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X60 Pro Plus</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X6S</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X6S pLus</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X70 Pro</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">X70 Pro+</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">YO1</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">Y11</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">Y12</label><br>
+                    <input type="radio" name="myvivo">
+                    <label for="vivo">Y12 g</label><br>
+                </div>
+            </div>
+            <div id="xiaomi" class="data">
+                <div class="p">
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">10i</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">10t</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">10t pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">11 Lite</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">11 Lite NE</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">11i</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">11T Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">12 Pro 5G</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 10</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 11X</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 11X Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 3</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 4</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 4i</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi 5</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi A1</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi A2</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi A3</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi Max</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi Max 2</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi Max Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi Mix 2</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Mi Poco M2</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 10</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 10 Power</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 10 Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 10 A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 11 Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 2</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 2 Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 2 Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 3</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 3S</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 3s Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 4</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 4A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 5</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 5A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmim 6</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 6 Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 6A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 7</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 7A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 8</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 8A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 8A Dual</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9 Activ</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9 Power</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9 Prime</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9A</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi 9i</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Go</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi K20</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi K20 Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note10</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note 10 Pro</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note 10 5G</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi NOte 10 Lite</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note 10 Pro Max</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note 10S</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Note 10T 5G </label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Y1</label><br>
+                    <input type="radio" name="myxioami">
+                    <label for="xioami">Redmi Y1 Lite</label><br>
+                </div>
+            </div>
+            <div id="xolo" class="data">
+                <div class="p">
+                    <input type="radio" name="myxolo">
+                    <label for="xolo">Black</label><br>
+                    <input type="radio" name="myxolo">
+                    <label for="xolo">Era 4X</label><br>
+                    <input type="radio" name="myxolo">
+                    <label for="xolo">Era 5X</label><br>
+                    <input type="radio" name="myxolo">
+                    <label for="xolo">ZX</label><br>
+                </div>
+            </div>
+            <div id="yu" class="data">
+                <div class="p">
+                    <input type="radio" name="myyu">
+                    <label for="yu">Ace</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yunicorn</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yunique</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yunique 2</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yuphoria</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yureka Black</label><br>
+                    <input type="radio" name="myyu">
+                    <label for="yu">Yureka Note</label><br>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="image">
+        <div>
+          <b><label for="image"> Upload Image :</label></b>
+            <input type="file" placeholder="Image">
+        </div>
+    </div>
+    <br>
+    <div id="button">
+        <div>
+            <input type="button" value="submit" onclick="payment()">
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#name").on('change', function () {
+                $(".data").hide();
+                $("#" + $(this).val()).fadeIn(200);
+            }).change();
+        });
+
+
+        function payment(){
+            console.log("Hello");
+            alert("your receiving amount is 800");
+            
+        }
+    </script>
+</body>
+
+</html>

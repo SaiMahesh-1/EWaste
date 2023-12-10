@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise form</title>
+    <style>
+        body {
+           
+            border: none;
+            border-radius: 20px;
+            border: 5px solid #f0e9e9;
+            border-width: 3.5px;
+            border-style: ridge;
+            background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp");
+            padding-top: 50px;
+            padding-left: 400px;
+            padding-right: 100px;
+            padding-bottom: 50px; 
+            font-size: 20px;
+            font-display: initial;
+            color: #fff;
+            margin-top: 150px;
+            margin-left: 150px;
+            margin-right:150px ;
+            font-size: 30px;
+        }
+
+        label {
+            width: 220px;
+            display: inline-block;
+            text-decoration: solid;
+            text-align: start;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <form >
+        <div>
+            <b><label for="enterprises">Enterprises</label></b>
+            <select name="enterprises">
+                <option value="">--Select--</option>
+                <option value="">Washing Machine</option>
+                <option value="">Refrigerator</option>
+                <option value="">Television</option>
+                <option value="">Mivrowave</option>
+                <option value="">Air Conditioner</option>
+                <option value="">Hair Dryer</option>
+                <option value="">Music system</option>
+                <option value="">Oven</option>
+                <option value="">Projector</option>
+                <option value="">Mixer</option>
+                <option value="">Geyser</option>
+                <option value="">Heater</option>
+                <option value="">Iron</option>
+                <option value="">Induction</option>
+                <option value="">Water Purifier</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+           <b><label for="Comaony">Company </label></b>
+            <select name="comapany">
+                <option value="">--Select--</option>
+                <option value="">Samsung</option>
+                <option value="">LG</option>
+                <option value="">Sony</option>
+                <option value="">Godrej</option>
+                <option value="">Panasonic</option>
+                <option value="">Voltas</option>
+                <option value="">Onida</option>
+                <option value="">Hisense</option>
+                <option value="">Faber</option>
+                <option value="">Hawells</option>
+                <option value="">Wipro</option>
+                <option value="">Orient</option>
+                <option value="">Prestige</option>
+                <option value="">V-Guard</option>
+                <option value="">Bajaj</option>
+                <option value="">Eureka Forbes</option>
+
+
+            </select>
+        </div>
+        <br>
+        <div id="image">
+            <div>
+                <b><label for="image"> Upload Image</label></b>
+                <input type="file" placeholder="Image" name="uploadimage">
+            </div>
+        </div>
+        <br>
+        <div>
+            <div>
+                <label for="submit"></label>
+                <input type="button" value="submit" name="submit" onclick="payment()">
+            </div>
+        </div>
+    </form>
+    <script>
+        function payment(){
+            console.log("Hello");
+            alert("your receiving amount is 1500");
+            
+        }
+    </script>
+</body>
+
+</html>

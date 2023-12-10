@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Payment Successful</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets.weforum.org/article/image/responsive_big_webp_l1vguMtlhr-HUreEHdnQRiQaJc9upzgW3WdePYEKL84.webp");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.payment-success {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin-top: 5px;
+   
+}
+
+.payment-success h1 {
+    color: #27ae60;
+}
+
+.payment-success p {
+    margin: 10px 0;
+}
+
+#order-number {
+    font-weight: bold;
+}
+
+.continue-shopping {
+    display: block;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.continue-shopping:hover {
+    background-color: #1d8348;
+}
+
+</style>
+<body>
+    <div class="payment-success">
+        <h1>Your Order has been<br>Confirmed</h1>
+        <p>Thank you for your purchase.</p>
+        <p>Your order has been confirmed.</p>
+        <p>Order Number: <span id="order-number">123456789</span></p>
+        <p>Shipping Address: John Doe, 123 Main St, City</p>
+        <p>Total Amount: $50.00</p>
+        <p>Payment Method: Credit Card</p>
+        <p><b>Your Order will be delivered within 5-10 days</b></p>
+        <a href="index.html" class="continue-shopping">Continue Shopping
+
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+body{
+	margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-color:#f7f7f13;
+	letter-spacing:0.1em;
+	  background-image: url(image.jpg);
+	}
+
+#contact {
+  height: auto;
+  width: 100%;
+
+}
+
+.contact-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-contact h2{
+	font-weight:bold;
+}
+
+.contact-details li {
+	color:#000;
+	font-size:15px;
+  padding-bottom: 10px;
+  font-stretch:semi-condensed;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  background-color: transparent;
+
+  
+}
+
+
+#contact  #sendmessage {
+  color: #18d26e;
+  border: 1px solid #18d26e;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+#contact  #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+  display: block;
+}
+
+#contact .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.btn{
+	border:1px solid #999;
+	color:#000;
+	background-color:transparent;
+	font-weight:bold;
+	transition:0.3s;
+  align-items: center;
+	}
+.btn:hover{
+	color:#fff;
+	background-color:#000;
+}
+
+/*Footer CSS Start*/
+
+#footer {
+  background: #000000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: white;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: 0;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  margin: 0 0 25px 0;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.paddsection{
+	padding:7% 20px 20px 20px;}
+
+
+</style>
+
+
+<body>
+	<br><br>
+<div id="contact" class="paddsection">
+<div class="container">
+<div class="contact-block1">
+<div class="row">
+
+<div class="col-lg-6">
+<div class="contact-contact">
+
+<h2 class="mb-30">CONTACT US</h2>
+
+<ul class="contact-details">
+<li><span>23 Balaji, Street</span></li>
+<li><span>Visakhapatnam,Andhra pradesh</span></li>
+<li><span>+88 01912704287</span></li>
+<li><span>ewaste@gmail.com</span></li>
+</ul>
+
+</div>
+</div>
+
+<div class="col-lg-6">
+<form action="" method="post" role="form" class="contactForm">
+<div class="row">
+
+<div class="col-lg-6">
+<div class="form-group">
+<input type="text" name="name" class="form-control" id="name" placeholder="Your Name " required data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="form-group">
+<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required data-rule="email" data-msg="Please enter a valid email" />
+</div>
+</div>
+
+
+
+<div class="col-lg-12">
+<div class="form-group">
+<input type="text" class="form-control" name="subject" id="subject" required placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+</div>
+</div>
+
+<div class="col-lg-12">
+<div class="form-group">
+<textarea class="form-control" name="message" rows="5" required data-msg="Please write something for us" placeholder="Message"></textarea>
+</div>
+</div>
+
+<div class="col-lg-12">
+<button onclick="myfunction()" class="btn">Submit</button>
+<script>
+  function myfunction(){
+    alert("Thanks for Contacting Us");
+  }
+</script>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>	
+</div>
+
+
+  <!-- start section footer -->
+<div id="footer" class="text-center">
+<div class="container">
+<div class="socials-media text-center">
+
+<ul class="list-unstyled" >
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+</ul>
+
+</div>
+
+<p>&copy; Copyrights the provider. All rights reserved.</p>
+
+<div class="credits" style="color: white;">
+Designed by S.Niveditha , Mahesh , Sadwika & Guna</a>
+</div>
+
+</div>
+</div>
+</body>
+
+</html>
